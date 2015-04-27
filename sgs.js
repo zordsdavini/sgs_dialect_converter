@@ -45,3 +45,11 @@ $(function(){
     });
 });
 
+/*
+// pakeit vėsus tekstu torėnius naujē
+$('*').contents().filter(function() {
+    return this.nodeType == Node.TEXT_NODE && this.nodeValue.trim() != '';
+}).each(function() {
+    this.nodeValue = '@@@@';
+});
+*/
